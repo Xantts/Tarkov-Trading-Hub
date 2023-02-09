@@ -1,0 +1,12 @@
+body{
+    background-color: #0c0c12;
+    color: white;
+    font-size: 25px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+  }
