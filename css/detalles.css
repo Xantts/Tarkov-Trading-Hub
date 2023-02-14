@@ -1,5 +1,7 @@
 body{
+    background-image: url("img/fondo.jpg");
     background-color: #0c0c12;
+    background-size: 100%;
     color: white;
     font-size: 25px;
     margin-left: 50px;
