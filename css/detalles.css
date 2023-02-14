@@ -1,0 +1,23 @@
+body{
+    background-color: #0c0c12;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    color:goldenrod;
+}
+strong{
+    color: lightseagreen;
+}
+i{
+    color: gray;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    height: 8%;
+  }
