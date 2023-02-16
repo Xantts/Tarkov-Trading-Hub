@@ -1,7 +1,5 @@
 body{
-    background-image: url("img/fondo.jpg");
     background-color: #0c0c12;
-    background-size: 100%;
     color: white;
     font-size: 25px;
     margin-left: 50px;
@@ -16,10 +14,16 @@ strong{
 i{
     color: gray;
 }
-.center {
+a{
+    color: burlywood;
+}
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 8%;
-    height: 8%;
-  }
+    width: 15%;
+    height: 15%;
+}
+.links{
+    color:goldenrod;
+}
