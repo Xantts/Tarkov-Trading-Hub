@@ -2,3 +2,16 @@ body{
     background-color: #0c0c12;
     color: white;
 }
+a{
+    color: burlywood;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+.links{
+    color:goldenrod;
+}
