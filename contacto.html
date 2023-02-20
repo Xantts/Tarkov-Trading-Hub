@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<link rel="stylesheet" href="css/index.css">
-    	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Contacto</title>
-</head>
-	<body>
-		<a href="index.html">
-        	<img src="img/logo_sin_fondo.png" width="100" height="100" alt="Logo TTH" class="logo">
-    		</a>
-    		<fieldset>
-        		<legend><strong class="links">Enlaces al resto de páginas</strong></legend>
-        		<p><a href="index.html">Inicio</a></p>
-        		<p><a href="detalles.html">Detalles</a></p>
-        		<p><a href="planificacion.html">Planificación</a></p>
-        		<p><a href="bocetos.html">Bocetos</a></p>
-        		<p><a href="miembros.html">Miembros</a></p>
-    		</fieldset>
-		<h1>Contacto</h1>
-		<div class="Informacion personal">
-		    <form action="mailto:dferre07@ucm.es?subjet="Consulta" method="POST" >
-		        <fieldset>
-			        <legend>Información personal</legend>
-			        <div class="name">
-			            <label for="name">Nombre:</label>
-			            <input type="text" name="nombre" id="name" size="30" placeholder="Ingresa tu nombre" class="campo"/> 
-			        </div>
-			        <div class="surname">
-			            <label for="surname">E-mail:</label>
-				        <input type="text" name="nombre" id="surname" size="40" placeholder="Ingresa tu correo electronico" class="campo"/>
-				    </div>
-			    </fieldset>
-			    <fieldset>
-			        <legend>Motivo de la consulta</legend>
-			        <div class="Evaluacion">
-					    <input type="radio" name="motivo" id="Ev" value="Evaluacion"/>Evaluación
-					</div>
-					<div class="Sugerencias">
-					    <input type="radio" name="motivo" id="Suggest" value="Sugerencias" >Sugerencias
-					</div>
-					<div class="Criticas">
-					    <input type="radio" name="motivo" id="Critica" value="Criticas" >Críticas		
-					</div>
-					<div class="textbox">
-					    <textarea name="comentario" rows="15" cols="80"></textarea>
-					</div>
-					<div class="checkbox">
-					    <input type="checkbox" name="Terminos y conndiciones" value="on" />Marque esta casilla para verificar que ha leído nuestros términos y condiciones del servicio
-					</div>
-			    </fieldset>
-				<button type="submit" name="submit2" value="Enviar form.">Enviar</button>
-			</form>
-		</div>
-	</body>
+  <head>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <a href="index.html">
+      <img
+        src="img/logo_sin_fondo.png"
+        width="100"
+        height="100"
+        alt="Logo TTH"
+        class="logo"
+      />
+    </a>
+    <fieldset>
+      <legend>
+        <strong class="links">Enlaces al resto de páginas</strong>
+      </legend>
+      <p><a href="index.html">Inicio</a></p>
+      <p><a href="detalles.html">Detalles</a></p>
+      <p><a href="planificacion.html">Planificación</a></p>
+      <p><a href="bocetos.html">Bocetos</a></p>
+      <p><a href="miembros.html">Miembros</a></p>
+    </fieldset>
+    <h1>Contacto</h1>
+    <div class="Informacion personal">
+      <form action="mailto:dferre07@ucm.es?" method="POST">
+        <fieldset>
+          <legend>Información personal</legend>
+          <div class="name">
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="name"
+              size="30"
+              placeholder="Ingresa tu nombre"
+              class="campo"
+            />
+          </div>
+          <div class="surname">
+            <label for="surname">E-mail:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="surname"
+              size="40"
+              placeholder="Ingresa tu correo electronico"
+              class="campo"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Motivo de la consulta</legend>
+          <div class="Evaluacion">
+            <input
+              type="radio"
+              name="motivo"
+              id="Ev"
+              value="Evaluacion"
+            />Evaluación
+          </div>
+          <div class="Sugerencias">
+            <input
+              type="radio"
+              name="motivo"
+              id="Suggest"
+              value="Sugerencias"
+            />Sugerencias
+          </div>
+          <div class="Criticas">
+            <input
+              type="radio"
+              name="motivo"
+              id="Critica"
+              value="Criticas"
+            />Críticas
+          </div>
+          <div class="textbox">
+            <textarea name="comentario" rows="15" cols="80"></textarea>
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="Terminos y conndiciones"
+              value="on"
+            />Marque esta casilla para verificar que ha leído nuestros términos
+            y condiciones del servicio
+          </div>
+        </fieldset>
+        <button type="submit" name="submit2" value="Enviar form.">
+          Enviar
+        </button>
+      </form>
+    </div>
+  </body>
 </html>
