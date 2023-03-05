@@ -1,11 +1,11 @@
 <?php
-
 session_start();
 if (!isset($_SESSION['username'])) {
   header('Location: login.php');
   exit();
 }
 $username = $_SESSION['username'];
+$saludo = $_SESSION["nombre"] . ". <a href='logout.php'>Cerrar sesión</a>";
 ?>
 
 <!DOCTYPE html>
@@ -32,10 +32,7 @@ $username = $_SESSION['username'];
         </ul>
       </div>
       <div class="user">
-        <p>Bienvenido <?php echo $username; ?></p>
-        <form action="logout.php" method="POST">
-          <input type="submit" name="logout" value="Cerrar sesión" />
-        </form>
+        <p>Bienvenido <?php echo $saludo; ?></p>
       </div>
     </header>
 
