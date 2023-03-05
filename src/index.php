@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -16,7 +20,7 @@
       <legend>
         <strong class="links">Enlaces al resto de páginas</strong>
       </legend>
-      <p><a href="">Inventario</a></p>
+      <p><a href="inventario.php">Inventario</a></p>
       <p><a href="">Mercado</a></p>
       <p><a href="">Subastas</a></p>
       <p><a href="">Comunidad</a></p>
@@ -32,3 +36,4 @@
     </p>
   </body>
 </html>
+
