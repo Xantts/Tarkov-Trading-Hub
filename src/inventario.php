@@ -1,10 +1,10 @@
 <?php
 session_start();
-if (!isset($_SESSION['username'])) {
+if (!isset($_SESSION['nombre'])) {
   header('Location: login.php');
   exit();
 }
-$username = $_SESSION['username'];
+$username = $_SESSION['nombre'];
 $saludo = $_SESSION["nombre"] . ". <a href='logout.php'>Cerrar sesión</a>";
 ?>
 
