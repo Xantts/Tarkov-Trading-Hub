@@ -24,10 +24,5 @@ function mostrarSaludo()
     return $html;
 }
 
+
 ?>
-<header>
-    <h1>Mi gran página web</h1>
-    <div class="saludo">
-        <?= mostrarSaludo(); ?>
-    </div>
-</header>

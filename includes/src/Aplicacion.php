@@ -26,7 +26,6 @@ class Aplicacion
         }
         return self::$instancia;
     }
-
     /**
      * @var array Almacena los datos de configuración de la BD
      */
@@ -68,7 +67,7 @@ class Aplicacion
      */
     private $atributosPeticion;
 
-
+    private $rutaRaizApp;
     private function __construct()
     {
         $this->inicializada = false;
@@ -116,7 +115,7 @@ class Aplicacion
      *                               aplicación.
      *
      */
-    public function init($bdDatosConexion, $rutaApp = '/', $dirInstalacion = __DIR__)
+    public function init($bdDatosConexion, $rutaApp = RUTA_APP, $dirInstalacion = __DIR__)
     {
         if (!$this->inicializada) {
             $this->bdDatosConexion = $bdDatosConexion;

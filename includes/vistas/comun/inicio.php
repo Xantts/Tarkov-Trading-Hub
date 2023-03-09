@@ -13,7 +13,8 @@
   </head>
 
   <body>
-    <img src="../img/Logo.PNG" alt="Logo" height="300" class="center" />
+
+    <img src="img\Logo.PNG" alt="Logo" height="300" class="center" />
     <h1>Tarkov trading hub</h1>
 
     <fieldset>
@@ -36,4 +37,3 @@
     </p>
   </body>
 </html>
-
