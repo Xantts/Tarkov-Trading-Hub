@@ -1,0 +1,40 @@
+body{
+    background-color: #0c0c12;
+    color: white;
+    font-size: 25px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+  }
+a{
+    color: burlywood;
+}
+.links{
+    color:goldenrod;
+}
+header a, header a:visited {
+	color: whitesmoke;
+	font-weight: bold;
+	text-decoration: none;
+} 
+header a:hover {
+	color: coral;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+div.saludo {
+    text-align: right;
+    margin-right: 2%;
+}
+.header-top .container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+    margin-top: 2%;
+}
