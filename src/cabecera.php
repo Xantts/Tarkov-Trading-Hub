@@ -11,7 +11,7 @@
 
 <header>
       <div class="logo">
-        <a href="index.php"><img src="../img/Logo.PNG" alt="Logo" height="100" /></a>
+        <a href="index.php"><img src="../img/logo_sin_fondo.PNG" alt="Logo" height="100" /></a>
       </div>
       <div class="menu">
         <ul>
