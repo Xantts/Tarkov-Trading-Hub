@@ -28,6 +28,6 @@ if (isset($usuariosValidos[$username]) && $usuariosValidos[$username] === $passw
 }
 else {
     echo "Error: nombre de usuario o contraseña incorrectos.";
-    header("refresh:3;url=login.php");  
+    header("login.php");
 }
 ?>
